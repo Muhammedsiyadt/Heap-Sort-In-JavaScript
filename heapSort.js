@@ -40,5 +40,5 @@ function heapify(array, n, i) {
 
 const array = [48, 4, 2, 1, 22, 11];
 console.log("Original array:", array);
-const sortedArray = heapSort(array);
-console.log("Sorted array:", sortedArray);
+// const sortedArray = heapSort(array);
+console.log("Sorted array:", heapSort(array));
